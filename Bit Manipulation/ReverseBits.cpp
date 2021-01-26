@@ -33,3 +33,23 @@ int main(){
 	cout << endl << rev << endl; 
 	return 0; 
 }
+
+
+/*
+unsigned int Solution::reverse(unsigned int number) {
+    unsigned int result =0 ;
+        for (int i = 0; i < 32; i++)
+        {
+            result <<= 1;             //shift result left
+            if ((number & 1) == 1)    //If (first bit is set) {
+            {                         //
+                result += 1;          //   set first bit of result
+            }                         //}
+
+            number >>= 1;             //shift number right
+        }
+
+        return result;
+}
+
+*/
